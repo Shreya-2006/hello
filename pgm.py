@@ -1,7 +1,7 @@
 try:
-  a= float(input("enter first number:"))
-  b= float(input("enter second number:"))
-  print(f"addition:{a+b}")
-  print(f"subtraction:{a-b}")
-except valueError:
-  print("please enter valid number.")
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+    print(f"Addition: {a + b}")
+    print(f"Subtraction: {a - b}")
+except ValueError:
+    print("Please enter a valid number.")
